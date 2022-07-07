@@ -1,0 +1,15 @@
+footer{
+    background: #371B58;
+}
+
+footer .container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 150px;
+}
+
+footer .container-footer img{
+    width: 40px;
+}
