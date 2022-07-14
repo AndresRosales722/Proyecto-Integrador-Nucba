@@ -4,13 +4,15 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-}
-
-body{
+    font-family: 'Lato', sans-serif;
     
 }
 
-.container-one{
+body{
+    background: #fcfcfc;
+}
+
+.canvas{
     padding: 20px;
+    padding-top: 0px;
 }

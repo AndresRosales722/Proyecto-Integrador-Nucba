@@ -1,0 +1,59 @@
+.about {
+    padding: 50px 0px;
+}
+
+.about figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.about h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+
+
+@media(min-width:576px) {
+    .about {
+        padding: 50px 0px;
+        max-width: 576px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:768px) {
+    .about {
+        max-width: 992px;
+    }
+
+    .about section {
+        display: flex;
+    }
+
+    .about section .page , figure{
+        width: 50%;
+    }
+
+    .about section .page{
+        padding: 0px 20px;
+    }
+
+    .canvas{
+        padding: 75px;
+        padding-top: 30px;
+    }
+}
+
+
+@media(min-width:992px) {
+    .about {
+        max-width: 1200px;
+    }
+}

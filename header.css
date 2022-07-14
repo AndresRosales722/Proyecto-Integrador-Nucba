@@ -1,12 +1,16 @@
-header{
+header {
     text-align: center;
     margin-bottom: 2.5rem;
-    background: #4C3575;
+    
     height: 120px;
 }
 
-header .logo{
+header .logo {
+    padding: 25px 0px;
+}
 
+header .menu{
+    margin-top: 1.5rem;
 }
 
 header .logo h1 a {
@@ -14,6 +18,34 @@ header .logo h1 a {
     font-size: 42px;
 }
 
-header .navigation-desktop{
+header .navigation-desktop {
     display: none;
+}
+
+header .navigation-mobile {
+    position: fixed;
+    z-index: 99;
+    display: none;
+}
+
+header .navigation-mobile nav {
+    width: 240px;
+    height: 100vh;
+    background: #371B58;
+    
+}
+
+header .navigation-mobile nav ul{
+    padding-top: 4rem;
+}
+
+header .navigation-mobile nav ul a{
+    padding: 20px;
+    display: flex;
+    color: white;
+    font-size: 1.1rem;
+}
+
+header .navigation-mobile nav ul a:hover{
+    background: rgb(103, 127, 151);
 }
