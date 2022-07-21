@@ -1,0 +1,53 @@
+footer {}
+
+footer .container-footer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 7px;
+    height: 150px;
+    margin-top: 1rem;
+}
+
+footer .container-footer a {
+    width: 35px;
+    border-radius: 15%;
+    color: white;
+    background: #222;
+    font-size: 1.1rem;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container-footer a:first-child:hover{
+    background: #196eaf;
+}
+
+footer .container-footer a:nth-child(2n):hover{
+    background: #20a6ff;
+}
+
+footer .container-footer a:nth-child(3n):hover{
+    background: #c7334e;
+}
+
+footer .container-footer a:nth-child(4n):hover{
+    background: #6441a5;
+}
+
+footer .container-footer a:nth-child(5n):hover{
+    background: rgb(116, 20, 39);
+}
+
+
+
+footer .container-footer i {
+    font-size: 1.2rem;
+}
+
+footer .container-footer img {
+    width: 40px;
+}
+
