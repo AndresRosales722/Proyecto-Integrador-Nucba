@@ -13,6 +13,11 @@ header .menu{
     letter-spacing: 1px;
 }
 
+header .logo span{
+    font-size: 14px;
+    line-height: 2;
+}
+
 header .logo h1 a {
     font-size: 42px;
     color: #222;
@@ -23,10 +28,10 @@ header .navigation-desktop {
 }
 
 header .navigation-mobile {
-    display: flex;
+    display: none;
     position: relative;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 header .navigation-mobile nav {
@@ -41,7 +46,7 @@ header .navigation-mobile nav ul a{
     line-height: 2.5;
     display: block;
     color: #222;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -49,3 +54,26 @@ header .navigation-mobile nav ul a:hover{
     
 }
 
+
+
+@media(min-width:768px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .menu{
+        display: none;
+    }
+
+    header .navigation-desktop {
+        display: flex;
+    }
+
+    header .navigation-desktop ul {
+        display: flex;
+        gap: 3rem;
+        margin-right: 10px;
+    }
+}
