@@ -14,6 +14,8 @@ main.index .container-page .cont-social{
     margin-top: 3rem;
 }
 
+
+
 main.index .container-page .cont-social a{
     width: 45px;
     border-radius: 15%;
@@ -42,15 +44,6 @@ main.index section.page .container-page h2{
 main.index section.page .redes nav img{
     width: 30px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -90,21 +83,47 @@ main.index section.page .cont-galery .galery{
 }
 
 main.index section.page .cont-galery .galery .cont-ilustration{
-    width: 49%;
+    width: 50%;
+    padding: 2px;
 }
 
-main.index section.page .cont-galery .galery .cont-ilustration figure{
+main.index section.page .cont-art .cont-ilustration-first{
     width: 100%;
 }
 
-main.index section.page .cont-galery .galery figure img{
+main.index section.page .cont-galery .galery .cont-ilustration figure {
     width: 100%;
+    position: relative;
+    float: left;
+}
+
+main.index section.page .cont-galery .galery figure a {
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 100%;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+main.index section.page .cont-galery .galery figure img {
+    max-width: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-indent: -9999px;
+    z-index: 1;
+    transform: translate3d(0, 0, 0);
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+main.index section.page .cont-social a:hover{
+    transition: all 0.1s ease-in-out;
 }
 
 main.index section.page .cont-social a:first-child:hover{
-    background: #196eaf;
+    background: #3b5998;
 }
 
 main.index section.page .cont-social a:nth-child(2n):hover{
@@ -127,7 +146,6 @@ main.index section.page .cont-social a:nth-child(5n):hover{
 
 @media(min-width:768px) {
     main.index section.page .cont-galery .galery .cont-ilustration{
-        width: 49%;
         display: flex;
         justify-content: space-between;
     }

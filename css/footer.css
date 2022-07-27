@@ -21,8 +21,12 @@ footer .container-footer a {
     justify-content: center;
 }
 
+footer .container-footer a:hover{
+    transition: all 0.1s ease-in-out;
+}
+
 footer .container-footer a:first-child:hover{
-    background: #196eaf;
+    background: #3b5998;
 }
 
 footer .container-footer a:nth-child(2n):hover{

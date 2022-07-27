@@ -6,16 +6,24 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    background: #4b4a5c;
 }
 
 
 .about h2 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    color: #222;
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: .06em;
+    font-weight: 300;
+
 }
 
 .about p {
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    color: #575757;
 }
 
 
@@ -42,7 +50,7 @@
     }
 
     .about section .page{
-        padding: 0px 20px;
+        padding: 0px 25px 0px 0px;
     }
 
     .canvas{
