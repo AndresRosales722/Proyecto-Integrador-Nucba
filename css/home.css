@@ -111,9 +111,6 @@ main.index section.page .cont-galery .galery figure img {
     position: absolute;
     left: 0;
     width: 100%;
-    text-indent: -9999px;
-    z-index: 1;
-    transform: translate3d(0, 0, 0);
     height: 100%;
     object-fit: cover;
 }
