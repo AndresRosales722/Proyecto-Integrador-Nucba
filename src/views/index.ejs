@@ -1,55 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIUCART</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/27de45d49e.js" crossorigin="anonymous"></script>
-</head>
+
+    <%- include('./partials/head.ejs')  %>
 
 <body>
     <div class="canvas">
 
-
-
-        <header>
-
-            <div class="menu">
-                <P>MENU</P>
-                <div class="navigation-mobile">
-                    <nav>
-                        <ul>
-                            <li><a href="/">WORK</a></li>
-                            <li><a href="/views/about.html">ABOUT</a></li>
-                            <li><a href="/views/contact.html">CONTACT</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="logo">
-                <h1>
-                    <a href="/">PIUCART</a>
-                </h1>
-            </div>
-
-
-            <div class="navigation-desktop">
-                <nav>
-                    <ul>
-                        <li><a href="/">WORK</a></li>
-                        <li><a href="/views/about.html">ABOUT</a></li>
-                        <li><a href="/views/contact.html">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header>
+        <%- include('./partials/header.ejs')  %>
 
         <div class="container-one">
 
@@ -154,15 +111,7 @@
 
         </div>
 
-        <footer>
-            <div class="container-footer">
-                <a href="https://www.facebook.com/piucart" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/rem_lordg" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/piucart/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.twitch.tv/piucart" target="_blank"><i class="fa-brands fa-twitch"></i></a>
-                <a href=""><i class="fa-solid fa-envelope"></i></a>         
-            </div>
-        </footer>
+        <%- include('./partials/footer.ejs')  %>
 
     </div>
 
