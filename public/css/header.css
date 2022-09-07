@@ -1,3 +1,8 @@
+.mostrar{
+    height: 130px!important;
+    bottom: 0px!important;
+}
+
 header {
     text-align: center;
     margin-bottom: 2.5rem;
@@ -11,6 +16,10 @@ header .logo {
 header .menu{
     margin-top: 1rem;
     letter-spacing: 1px;
+}
+
+header .menu p{
+    cursor: pointer;
 }
 
 header .logo span{
@@ -32,18 +41,17 @@ header .navigation-desktop {
 }
 
 header .navigation-mobile {
-    display: none;
     position: relative;
+    height: 0;
+    bottom: 135px;
     justify-content: center;
     margin-top: 0.5rem;
+    transition: all 0.5s ease;
+    
 }
 
 header .navigation-mobile nav {
     width: 100%;
-}
-
-header .navigation-mobile nav ul{
-    
 }
 
 header .navigation-mobile nav ul a{
@@ -53,12 +61,6 @@ header .navigation-mobile nav ul a{
     font-size: 1rem;
     text-align: center;
 }
-
-header .navigation-mobile nav ul a:hover{
-    
-}
-
-
 
 @media(min-width:768px) {
     header{
